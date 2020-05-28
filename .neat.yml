@@ -6,8 +6,10 @@ ask:
   - id: repo
     description: What is the uri of this Neat repo? In the format GitHubUsername/repo (or the name you added to the Neat registered repos)
     pattern: 'make your own repo a Neat template'
+    replace: true
   - id: purpose
     description: What is the purpose of this repo? What will people achieve when using it?
+    replace: true
 
 inject:
   - id: neat-usage
