@@ -1,0 +1,70 @@
+###################################################################################
+## Example Neat Config                                                           ##
+## For more information: https://github.com/olivr-com/neat#-creating-a-neat-repo ##
+###################################################################################
+
+## Run commands at the begining
+pre-run: echo I am a pre-run command
+
+## Ask questions
+ask:
+  - id: water-color
+    ## Make the question more user-friendly
+    # description: What color is the water?
+
+    ## Default answer
+    # default: blue
+
+    ## Choice
+    # default: [blue, transparent]
+
+    ## Multiple choice
+    # default:
+    #   - blue: false
+    #   - transparent: true
+    #   - green: true
+    #   - brown: false
+
+    ## Replace all occurences of {{water-color}}
+    # replace: true
+
+## Run commands after the questions were asked, just before downloading/injecting files
+pre-download:
+  - echo I am a pre-download command
+  - echo I know the water color ($NEAT_ASK_WATER-COLOR)
+
+## Change the replace pattern for all questions (eg. will replace **water-color** instead of {{water-color}})
+# replace_pattern: '**%s**'
+
+## Only replace in certain files
+replace_filter: \.(md|txt)$
+
+## Inject files
+inject:
+  ## Append or replace <!-- my-injection --> in README.md...
+  - id: my-injection
+    target: README.md
+
+    ## ...with the content of an url
+    url: https://github.com/olivr-com/neat/blob/master/.gitignore
+
+    ## ...or with the content of a file in this repo or in the user's filesystem
+    # file: .gitignore
+
+    ## ...or with a command
+    # command: cat .gitignore
+
+    ## Change the injection pattern
+    # pattern: "<!-- List of Git ignored files -->"
+
+    ## Inject several targets with the same content:
+    # target: [README.md, docs/git_ignored_files.md]
+
+## Don't download certain files or folders
+# ignore: [README.md]
+
+## Run commands at the end
+post-run:
+  - echo I am a post-run command
+  - echo I know the water color ($NEAT_ASK_WATER-COLOR)
+  - "echo I also know many other Neat variables such as the list of added files:\n $NEAT_ADDED_FILES"

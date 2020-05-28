@@ -1,0 +1,14 @@
+ask:
+  - id: repo
+    description: What is the uri of this Neat repo? In the format GitHubUsername/repo (or the name you added to the Neat registered repos)
+    pattern: 'make your own repo a Neat template'
+  - id: purpose
+    description: What is the purpose of this repo? What will people achieve when using it?
+inject:
+  - id: neat-usage
+    file: inject/readme/neat-usage.md
+    target: README.md
+  - id: neat-config
+    file: inject/.neat.yml
+    target: .neat.yml
+ignore: [.neat.yml, inject]
