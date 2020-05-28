@@ -4,10 +4,8 @@ This repository is a [Neat](https://github.com/olivr-com/neat) template. Use it 
 
 ## Content
 
-- [README.md](README.tpl.md) with instructions for your users to neat your template (if you already have a README.md in you repo, it will append those instructions)
+- [README.md](README.tpl.md) containing a [usage section](inject/neat-usage.md) with instructions for your users to neat your template (if you already have a README.md in you repo, it will append those instructions)
 - [.neat.yml](.neat.tpl.yml) with many options commented out so you can configure your repo without having to go back to the documentation every time
-
-<!-- neat-usage -->
 
 ## Template usage
 
@@ -47,5 +45,3 @@ neat olivr-com/oss new-project
 
 Neat is composable, meaning you can compose a repo from several templates by just running the neat command several times.
 Check out [neat repo](https://github.com/olivr-templates/neat-repo) or other [neat templates](https://github.com/olivr-com/neat/blob/master/neat-repos.json).
-
-<!-- neat-usage -->

@@ -3,6 +3,10 @@
 ## For more information: https://github.com/olivr-com/neat#-creating-a-neat-repo ##
 ###################################################################################
 
+## Use another file's content befvore downloading a file
+# symlink:
+#   - README.md: readme-content.md
+
 ## Run commands at the begining
 pre-run: echo I am a pre-run command
 
