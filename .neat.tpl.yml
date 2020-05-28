@@ -34,8 +34,8 @@ ask:
 
 ## Run commands after the questions were asked, just before downloading/injecting files
 pre-download:
-  - echo I am a pre-download command
-  - echo I know the water color ($NEAT_ASK_WATER-COLOR)
+  - echo "I am a pre-download command"
+  - echo "I know the water color ($NEAT_ASK_WATER_COLOR)"
 
 ## Change the replace pattern for all questions (eg. will replace **water-color** instead of {{water-color}})
 # replace_pattern: '**%s**'
@@ -50,7 +50,7 @@ inject:
     target: README.md
 
     ## ...with the content of an url
-    url: https://github.com/olivr-com/neat/blob/master/.gitignore
+    url: https://raw.githubusercontent.com/olivr-com/neat/master/.gitignore
 
     ## ...or with the content of a file in this repo or in the user's filesystem
     # file: .gitignore
@@ -69,6 +69,6 @@ inject:
 
 ## Run commands at the end
 post-run:
-  - echo I am a post-run command
-  - echo I know the water color ($NEAT_ASK_WATER-COLOR)
-  - "echo I also know many other Neat variables such as the list of added files:\n $NEAT_ADDED_FILES"
+  - echo "I am a post-run command"
+  - echo "I know the water color ($NEAT_ASK_WATER_COLOR)"
+  - 'echo "I also know many other Neat variables such as the list of added files:\n $NEAT_ADDED_FILES"'
