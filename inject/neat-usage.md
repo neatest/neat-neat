@@ -20,19 +20,13 @@ In your repo folder, run:
 neat {{repo}}
 ```
 
-### As your new personalized repo template
+### As your new personalized template
 
 Fork this template, customize it to your needs.
 
 Then use Neat as described above and use the path to your forked repo instead.
 
-For example, at Olivr, we use a more customized [default repo](https://github.com/olivr-com/oss), and we would run the following for each new project:
-
-```sh
-neat olivr-com/oss new-project
-```
-
 ### Composability
 
 Neat is composable, meaning you can compose a repo from several templates by just running the neat command several times.
-Check out [neat repo](https://github.com/olivr-templates/neat-repo) or other [neat templates](https://github.com/olivr-com/neat/blob/master/neat-repos.json).
+Check out [neat repo](https://github.com/olivr-templates/neat-repo) or other [neat templates](https://github.com/search?q=topic%3Aneat-template).

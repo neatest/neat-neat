@@ -11,6 +11,11 @@ This repository is a [Neat](https://github.com/olivr-com/neat) template. Use it 
 - [README.md](README.tpl.md) containing a [usage section](inject/neat-usage.md) with instructions for your users to neat your template (if you already have a README.md in you repo, it will append those instructions)
 - [.neat.yml](.neat.tpl.yml) with many options commented out so you can configure your repo without having to go back to the documentation every time
 
+## Get your template out there
+
+- Add the GitHub tag [neat-template](https://github.com/search?q=topic%3Aneat-template)
+- Add it to the [official neat-repos](https://github.com/olivr-com/neat#add-your-repo-to-the-registered-repo-list)
+
 ## Template usage
 
 Install [Neat](https://github.com/olivr-com/neat) `npm i -g neat` or you can run it directly through `npx`
@@ -33,17 +38,11 @@ In your repo folder, run:
 neat neat
 ```
 
-### As your new personalized repo template
+### As your new personalized template
 
 Fork this template, customize it to your needs.
 
 Then use Neat as described above and use the path to your forked repo instead.
-
-For example, at Olivr, we use a more customized [default repo](https://github.com/olivr-com/oss), and we would run the following for each new project:
-
-```sh
-neat olivr-com/oss new-project
-```
 
 ### Composability
 
