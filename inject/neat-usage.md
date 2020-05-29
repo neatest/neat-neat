@@ -29,4 +29,4 @@ Then use Neat as described above and use the path to your forked repo instead.
 ### Composability
 
 Neat is composable, meaning you can compose a repo from several templates by just running the neat command several times.
-Check out [neat repo](https://github.com/olivr-templates/neat-repo) or other [neat templates](https://github.com/search?q=topic%3Aneat-template).
+Check out [neat repo](https://github.com/olivr-templates/neat-repo) or other [neat templates](https://github.com/search?q=topic%3Aneat-template&type=Repositories).
