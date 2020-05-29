@@ -2,6 +2,10 @@
 
 This repository is a [Neat](https://github.com/olivr-com/neat) template. Use it to transform your existing repo into a Neat template or to start a new repo.
 
+## Prerequisite
+
+- [Neat](https://github.com/olivr-com/neat)
+
 ## Content
 
 - [README.md](README.tpl.md) containing a [usage section](inject/neat-usage.md) with instructions for your users to neat your template (if you already have a README.md in you repo, it will append those instructions)
