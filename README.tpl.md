@@ -8,7 +8,7 @@ This repository is a [Neat](https://github.com/olivr-com/neat) template. Use it 
 
 - [Neat](https://github.com/olivr-com/neat)
 
-## Content
+## Template content
 
 <!-- Add here what people get with {{repo}} -->
 <!-- For example, you can include what will be downloaded/injected and commands that will be run -->
