@@ -1,6 +1,6 @@
 # neat-neat
 
-This repository is a [Neat](https://github.com/olivr-com/neat) template. Use it to transform your own repo into a Neat template.
+This repository is a [Neat](https://github.com/olivr-com/neat) template. Use it to transform your existing repo into a Neat template or to start a new repo.
 
 ## Content
 
