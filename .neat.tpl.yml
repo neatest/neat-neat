@@ -35,7 +35,7 @@ ask:
 ## Run commands after the questions were asked, just before downloading/injecting files
 pre-download:
   - echo "I am a pre-download command"
-  - echo "I know the water color ($NEAT_ASK_WATER_COLOR)"
+  - script: console.log("I know the water color" + process.env.NEAT_ASK_WATER_COLOR)
 
 ## Change the replace pattern for all questions (eg. will replace **water-color** instead of {{water-color}})
 # replace_pattern: '**%s**'
